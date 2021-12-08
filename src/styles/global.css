@@ -1,0 +1,56 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+/* @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 14px;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+body {
+  background-color: var(--backgroundColor);
+  -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-family: 'Poppins', sans-serif;
+  color: #111111;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+
+.custom-select-box .ant-select-selection-item {
+  line-height: 50px !important;
+}
+
+.custom-select-box .ant-select-selection-placeholder {
+  line-height: 50px !important;
+}
+
+.custom-select-box .ant-select-selector {
+  height: 100% !important;
+  border-radius: 0 !important;
+  border-width: 1 !important;
+  border-color: #ededed !important;
+}
+
+.custom-select-box .ant-select-focused .ant-select-selector, .ant-select-selector:focus, .ant-select-selector:active, .ant-select-open .ant-select-selector {
+  border-color: #ededed !important;
+  box-shadow: none !important;
+}

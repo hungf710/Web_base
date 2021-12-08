@@ -1,0 +1,27 @@
+body {
+ margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  color: #111111;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+header {
+    z-index:999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 200px ;
+    transition: 0.5 ease;
+}
+section {
+    padding:  100px 200px;
+}
